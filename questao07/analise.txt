@@ -1,0 +1,44 @@
+Questão 07 – Lista de Compras
+
+Classes:
+- ListaCompras
+- Produto
+
+Atributos:
+
+Produto:
+- nome
+- unidadeCompra
+- qtdMes
+- qtdCompra
+- precoEstimado
+
+ListaCompras:
+- total (derivado)
+
+Métodos:
+
+Produto:
+- atualizarPreco()
+- calcularTotalProduto()
+
+ListaCompras:
+- calcularTotal()
+- adicionarProduto()
+- removerProduto()
+
+Relacionamento:
+- ListaCompras (1) -------- (N) Produto
+- O atributo total é derivado da soma dos produtos
+
+Requisitos Funcionais (RF):
+- RF01: O sistema deve permitir cadastrar produtos na lista de compras.
+- RF02: O sistema deve permitir atualizar o preço estimado dos produtos mensalmente.
+- RF03: O sistema deve permitir informar a quantidade prevista e a quantidade efetiva de compra.
+- RF04: O sistema deve calcular o valor total da lista de compras.
+- RF05: O sistema deve exibir todos os produtos cadastrados.
+
+Requisitos Não Funcionais (RNF):
+- RNF01: O sistema deve ser simples e de fácil uso.
+- RNF02: O sistema deve calcular os totais rapidamente.
+- RNF03: Os dados devem ser armazenados com consistência.
