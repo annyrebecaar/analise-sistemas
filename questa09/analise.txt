@@ -1,0 +1,51 @@
+Questão 09 – Coleção de CDs (Variação A)
+
+Classes:
+- CD
+- Artista
+- Musica
+
+Atributos:
+
+CD:
+- titulo
+- anoLancamento
+- ehColetanea (boolean)
+- ehDuplo (boolean)
+
+Artista:
+- nome
+
+Musica:
+- nome
+- duracao
+
+Métodos:
+
+CD:
+- adicionarMusica()
+- listarMusicas()
+
+Artista:
+- listarCDs()
+
+Musica:
+- cadastrarMusica()
+
+Relacionamentos:
+- CD (N) -------- (N) Artista
+- CD (1) -------- (N) Musica
+
+Requisitos Funcionais (RF):
+- RF01: O sistema deve permitir cadastrar CDs com múltiplos artistas.
+- RF02: O sistema deve identificar se um CD é coletânea.
+- RF03: O sistema deve identificar se um CD é duplo.
+- RF04: O sistema deve permitir cadastrar músicas em cada CD.
+- RF05: O sistema deve armazenar a duração das músicas.
+- RF06: O sistema deve listar os CDs de um determinado artista.
+- RF07: O sistema deve localizar em quais CDs uma música está presente.
+
+Requisitos Não Funcionais (RNF):
+- RNF01: O sistema deve permitir consultas rápidas mesmo com muitos CDs.
+- RNF02: O sistema deve manter integridade entre CDs, artistas e músicas.
+- RNF03: O sistema deve ser organizado e fácil de manter.
