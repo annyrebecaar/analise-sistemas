@@ -1,0 +1,59 @@
+Questão 10 – Sala de Reunião
+
+Classes:
+- Sala
+- Funcionario
+- Reuniao
+- Agenda
+
+Atributos:
+
+Sala:
+- numero
+- quantidadeLugares
+
+Funcionario:
+- nome
+- cargo
+- ramal
+
+Reuniao:
+- data
+- horario
+- assunto
+
+Agenda:
+- data
+
+Métodos:
+
+Reuniao:
+- agendar()
+- remarcar()
+- cancelar()
+
+Sala:
+- verificarDisponibilidade()
+
+Agenda:
+- listarSalasLivres()
+
+Relacionamentos:
+- Sala (1) -------- (N) Reuniao
+- Funcionario (1) -------- (N) Reuniao
+- Agenda (1) -------- (N) Reuniao
+
+Requisitos Funcionais (RF):
+- RF01: O sistema deve permitir cadastrar salas de reunião.
+- RF02: O sistema deve permitir cadastrar funcionários.
+- RF03: O sistema deve permitir agendar reuniões.
+- RF04: O sistema deve permitir remarcar reuniões (data, horário ou sala).
+- RF05: O sistema deve permitir cancelar reuniões.
+- RF06: O sistema deve informar quais salas estão disponíveis em uma data e horário.
+- RF07: O sistema deve associar reuniões a funcionários responsáveis.
+
+Requisitos Não Funcionais (RNF):
+- RNF01: O sistema deve evitar conflitos de horários entre reuniões.
+- RNF02: O sistema deve responder rapidamente às consultas de disponibilidade.
+- RNF03: O sistema deve garantir a integridade dos agendamentos.
+- RNF04: O sistema deve ter interface clara para visualização da agenda.
