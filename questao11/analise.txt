@@ -1,0 +1,54 @@
+Questão 11 – Herança
+
+Superclasse:
+- Pessoa
+
+Atributos:
+- nome
+- dataNascimento
+- endereco
+- telefones
+
+Métodos:
+- cadastrar()
+- obterIdade()
+
+Classes Filhas:
+
+Funcionario:
+Atributos:
+- matricula
+- salario
+- dataAdmissao
+- cargo
+
+Métodos:
+- reajustarSalario()
+- promover()
+
+Cliente:
+Atributos:
+- codigo
+- profissao
+
+Métodos:
+- (herda cadastrar() e obterIdade())
+
+Relacionamento (Herança):
+Pessoa
+  ▲
+ / \
+Funcionario   Cliente
+
+Requisitos Funcionais (RF):
+- RF01: O sistema deve permitir cadastrar pessoas.
+- RF02: O sistema deve calcular a idade de uma pessoa.
+- RF03: O sistema deve permitir cadastrar funcionários.
+- RF04: O sistema deve permitir cadastrar clientes.
+- RF05: O sistema deve permitir reajustar salário de funcionários.
+- RF06: O sistema deve permitir promover funcionários.
+
+Requisitos Não Funcionais (RNF):
+- RNF01: O sistema deve reutilizar código por meio de herança.
+- RNF02: O sistema deve ser de fácil manutenção e expansão.
+- RNF03: O sistema deve garantir consistência dos dados entre classes.
