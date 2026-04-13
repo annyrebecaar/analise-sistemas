@@ -1,0 +1,35 @@
+06 – Comanda Eletrônica
+
+Classes: Comanda, Produto
+
+Atributos:
+
+Comanda:
+- numero
+- /itens
+
+Produto:
+- nome
+- valorUnitario
+- quantidade
+
+Métodos:
+- adicionarProduto()
+- calcularTotal()
+- fecharComanda()
+
+Relacionamentos:
+- Uma comanda possui vários produtos (1:N)
+- /itens (derivado)
+
+Requisitos Funcionais (RF):
+- O sistema deve permitir criar comandas.
+- O sistema deve permitir registrar produtos consumidos.
+- O sistema deve armazenar quantidade e valor dos produtos.
+- O sistema deve calcular o valor total da comanda.
+- O sistema deve finalizar a compra.
+
+Requisitos Não Funcionais (RNF):
+- O sistema deve responder rapidamente.
+- O sistema deve evitar erros de cálculo.
+- O sistema deve garantir integridade dos dados.
