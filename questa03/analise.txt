@@ -1,0 +1,29 @@
+03 – Boneco em Movimento
+
+Classe: Boneco
+
+Atributos:
+- nome
+- posicaoX
+- posicaoY
+- direcao
+
+Métodos:
+- moverCima()
+- moverBaixo()
+- moverDireita()
+- moverEsquerda()
+
+Relacionamentos:
+- Classe independente (sem relacionamentos)
+
+Requisitos Funcionais (RF):
+- O sistema deve permitir definir o nome do boneco.
+- O sistema deve permitir definir a posição X e Y.
+- O sistema deve permitir alterar a direção do boneco.
+- O sistema deve permitir movimentar o boneco na tela.
+
+Requisitos Não Funcionais (RNF):
+- O sistema deve responder rapidamente aos comandos.
+- O sistema deve ser simples e intuitivo.
+- O sistema deve representar corretamente as posições.
