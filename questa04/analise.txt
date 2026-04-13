@@ -1,0 +1,38 @@
+04 – Horário de Remédios
+
+Classes: Remedio, Horario
+
+Atributos:
+
+Remedio:
+- nomePessoa
+- dataInicio
+- qtdDias
+- vezesDia
+- dosagem
+- nomeRemedio
+- /horarios
+
+Horario:
+- hora
+
+Métodos:
+- gerarHorarios()
+- reorganizarHorarios()
+- exibirPlano()
+
+Relacionamentos:
+- Um remédio possui vários horários (1:N)
+- /horarios (derivado)
+
+Requisitos Funcionais (RF):
+- O sistema deve permitir cadastrar remédios.
+- O sistema deve gerar automaticamente os horários de uso.
+- O sistema deve permitir escolher horários.
+- O sistema deve exibir a planilha diária de remédios.
+- O sistema deve reorganizar horários em caso de atraso.
+
+Requisitos Não Funcionais (RNF):
+- O sistema deve ser fácil de usar.
+- O sistema deve responder rapidamente.
+- O sistema deve garantir consistência nos horários.
