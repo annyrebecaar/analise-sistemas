@@ -23,7 +23,7 @@ Requisitos Funcionais (RF):
 - O sistema deve armazenar tipo, data, valor e forma de pagamento.
 - O sistema deve calcular o total mensal.
 - O sistema deve agrupar gastos por tipo.
-- O sistema deve agrpar gastos por forma de pagamento.
+- O sistema deve agrupar gastos por forma de pagamento.
 
 Requisitos Não Funcionais (RNF):
 - O sistema deve ser simples e intuitivo.
