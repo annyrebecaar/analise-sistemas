@@ -1,0 +1,32 @@
+01 – Conta de Luz
+
+Classe: ContaLuz
+
+Atributos:
+- dataLeitura
+- numeroLeitura
+- kwGasto
+- valorPagar
+- dataPagamento
+- mediaConsumo
+
+Métodos:
+- calcularMedia()
+- verificarMenorConsumo()
+- verificarMaiorConsumo()
+
+Relacionamentos:
+- Uma lista contém várias contas de luz (1:N)
+- /contasMensais (derivado)
+
+Requisitos Funcionais (RF):
+- O sistema deve permitir cadastrar contas de luz mensais.
+- O sistema deve armazenar os dados de consumo e pagamento.
+- O sistema deve calcular a média de consumo.
+- O sistema deve identificar o mês de menor consumo.
+- O sistema deve identificar o mês de maior consumo.
+
+Requisitos Não Funcionais (RNF):
+- O sistema deve ser simples e fácil de usar.
+- O sistema deve apresentar os resultados rapidamente.
+- Os dados devem ser armazenados com consistência.
