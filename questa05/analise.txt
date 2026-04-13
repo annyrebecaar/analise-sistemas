@@ -1,0 +1,31 @@
+05 – Gastos Diários
+
+Classe: Gasto
+
+Atributos:
+- tipo
+- data
+- valor
+- formaPagamento
+- /gastosMensais
+
+Métodos:
+- calcularTotal()
+- agruparPorTipo()
+- agruparPorPagamento()
+
+Relacionamentos:
+- Uma lista contém vários gastos (1:N)
+- /gastosMensais (derivado)
+
+Requisitos Funcionais (RF):
+- O sistema deve permitir cadastrar gastos.
+- O sistema deve armazenar tipo, data, valor e forma de pagamento.
+- O sistema deve calcular o total mensal.
+- O sistema deve agrupar gastos por tipo.
+- O sistema deve agrpar gastos por forma de pagamento.
+
+Requisitos Não Funcionais (RNF):
+- O sistema deve ser simples e intuitivo.
+- O sistema deve apresentar resultados rapidamente.
+- Os dados devem ser armazenados com consistência.
