@@ -1,0 +1,31 @@
+02 – TextoSaida
+
+Classe: TextoSaida
+
+Atributos:
+- texto
+- tamanhoLetra
+- corFonte
+- corFundo
+- tipoComponente
+
+Métodos:
+- configurarTexto()
+- exibirTexto()
+- alterarCor()
+
+Relacionamentos:
+- Classe independente (sem relacionamentos)
+
+Requisitos Funcionais (RF):
+- O sistema deve permitir definir um texto.
+- O sistema deve permitir configurar tamanho da letra.
+- O sistema deve permitir escolher cor da fonte.
+- O sistema deve permitir escolher cor do fundo.
+- O sistema deve permitir escolher o tipo de componente (label, edit, memo).
+- O sistema deve exibir o texto configurado.
+
+Requisitos Não Funcionais (RNF):
+- O sistema deve ser simples de utilizar.
+- O sistema deve permitir rápida visualização do texto.
+- O sistema deve manter consistência nas configurações.
